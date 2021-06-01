@@ -1,0 +1,11 @@
+<h1>结果总字数{{total}}</h1>
+<br>
+<h2>输出结果</h2>
+<br>
+{{word}}
+<br>
+<h2>数目排序</h2>
+{% for word,count in number %}
+{{word}}-{{count}}
+<br>
+{% endfor %}
